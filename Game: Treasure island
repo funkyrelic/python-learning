@@ -45,9 +45,9 @@ else:
     choice3 = input("Which door will you open? Red, Blue or Yellow? Press: R, B or Y\n").lower()
     if choice3 == "r":
       print("Burned by fire. Game over.")
-    if choice3 == "b":
+    elif choice3 == "b":
       print("Eaten by beasts. Game over.")
-    if choice3 == "y":
+    elif choice3 == "y":
       print("You found the treasure!")
     else:
       print("Game over")
