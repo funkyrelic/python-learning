@@ -32,22 +32,22 @@ print("Your mission is to find the treasure.")
 
 input("Press ENTER to play the game")
 print("You see a path, wondering what to do next.")
-choice1 = input("Will you go left or right? Press: L or R\n")
-if choice1 != "L":
+choice1 = input("Will you go left or right? Press: L or R\n").lower()
+if choice1 != "l":
   print("You fell into a hole. Game over.")
 else:
   print("After you turn you see a river.")
-  choice2 = input("Will you swim through the river or wait? Press: S or W\n")
-  if choice2 != "W":
+  choice2 = input("Will you swim through the river or wait? Press: S or W\n").lower()
+  if choice2 != "w":
     print("Attacked by trout. Game over.")
   else:
     print("You squint your eyes and discover three hidden doors behind the trees.")
-    choice3 = input("Which door will you open? Red, Blue or Yellow? Press: R, B or Y\n")
-    if choice3 == "R":
+    choice3 = input("Which door will you open? Red, Blue or Yellow? Press: R, B or Y\n").lower()
+    if choice3 == "r":
       print("Burned by fire. Game over.")
-    if choice3 == "B":
+    if choice3 == "b":
       print("Eaten by beasts. Game over.")
-    if choice3 == "Y":
+    if choice3 == "y":
       print("You found the treasure!")
     else:
       print("Game over")
