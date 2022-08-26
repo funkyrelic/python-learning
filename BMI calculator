@@ -1,5 +1,15 @@
 print("This is a BMI calculator, please follow instructions below for your BMI result.\n")
 height = input("Enter your height in meters: ")
 weight = input("Enter your weight in kilograms: ")
-BMI = int(weight) / float(height)**2
-print("Your BMI is " + str(int(BMI)))
+BMI = weight/height**2
+BMI_fin = int(round(BMI,0))
+if BMI<=18.5:
+    print(f"Your BMI is {BMI_fin}, you are underweight.")
+elif BMI<25:
+    print(f"Your BMI is {BMI_fin}, you have a normal weight.")
+elif BMI<30:
+    print(f"Your BMI is {BMI_fin}, you are slightly overweight.")
+elif BMI<35:
+    print(f"Your BMI is {BMI_fin}, you are obese.")
+else:
+    print(f"Your BMI is {BMI_fin}, you are clinically obese.")
