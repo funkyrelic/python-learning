@@ -50,4 +50,4 @@ else:
     elif choice3 == "y":
       print("You found the treasure!")
     else:
-      print("Game over")
+      print("Game over.")
