@@ -53,6 +53,4 @@ elif player_move == 2 and computer_move == 0:
   print("\nYou lost!")
 elif player_move == 2 and computer_move == 1:
   print("\nYou won!")
-else:
-  print("You typed invalid number, you lose!")
 print("\nThank you for plaing!")
