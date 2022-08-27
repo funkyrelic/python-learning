@@ -35,8 +35,6 @@ if player_move > 2:
 else:
   player_signal = signals[player_move]
 
-
-
   computer_move = random.randint(0,2)
   computer_signal = signals[computer_move]
 
