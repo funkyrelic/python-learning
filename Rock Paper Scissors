@@ -53,4 +53,4 @@ elif player_move == 2 and computer_move == 0:
   print("\nYou lost!")
 elif player_move == 2 and computer_move == 1:
   print("\nYou won!")
-print("\nThank you for plaing!")
+print("\nThank you for playing!")
